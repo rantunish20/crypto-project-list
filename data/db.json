@@ -1,0 +1,39 @@
+{
+  "Coins": [
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+      "current_price": "39163"
+    },
+    {
+      "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
+      "name": "Bitcoin",
+      "symbol": "btc",
+      "current_price": 38970,
+      "id": "uES_8Ly"
+    },
+    {
+      "image": "https://assets.coingecko.com/coins/images/279/large/ethereum.png?1595348880",
+      "name": "Ethereum",
+      "symbol": "eth",
+      "current_price": 2495.46,
+      "id": "HQFVmot"
+    },
+    {
+      "image": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707",
+      "name": "Tether",
+      "symbol": "usdt",
+      "current_price": 1,
+      "id": "n_C6H4q"
+    },
+    {
+      "image": "https://assets.coingecko.com/coins/images/825/large/binance-coin-logo.png?1547034615",
+      "name": "Binance Coin",
+      "symbol": "bnb",
+      "current_price": 360.1,
+      "id": "4-V1vBj"
+    }
+  ]
+}
