@@ -1,13 +1,6 @@
 {
   "Coins": [
     {
-      "id": "bitcoin",
-      "symbol": "btc",
-      "name": "Bitcoin",
-      "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
-      "current_price": "39163"
-    },
-    {
       "image": "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
       "name": "Bitcoin",
       "symbol": "btc",
@@ -34,6 +27,13 @@
       "symbol": "bnb",
       "current_price": 360.1,
       "id": "4-V1vBj"
+    },
+    {
+      "image": "https://assets.coingecko.com/coins/images/975/large/cardano.png?1547034860",
+      "name": "cardano",
+      "symbol": "ada",
+      "current_price": 1.6,
+      "id": "62FZUbC"
     }
   ]
 }

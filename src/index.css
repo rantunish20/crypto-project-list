@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+html {
+  background-color: black;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: White;
+  align-items: center;
+  text-align: center;
+}
+
+.SearchForm {
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+.searchBttn {
+  background-color: #303245;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 25px;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 15%;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 2px 8px;
+  text-align: center;
+}
+.favBttn {
+  background-color: #15172b;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 20px;
+  margin-top: 10px;
+  outline: 0;
+  text-align: center;
+  width: 10%;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 2px 8px;
+}
+.favList {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow:
+    rgba(255, 255, 255, 0.1) 0px 4px 16px,
+    rgba(255, 255, 255, 0.1) 0px 8px 24px,
+    rgba(255, 255, 255, 0.1) 0px 16px 56px;
+}
+.coin-List {
+  background-color: #15172b;
+  border-radius: 20px;
+  box-sizing: border-box;
+  width: 80%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  box-shadow:
+  rgba(255, 255, 255, 0.1) 0px 4px 16px,
+  rgba(255, 255, 255, 0.1) 0px 8px 24px,
+  rgba(255, 255, 255, 0.1) 0px 16px 56px;
+}
+
+#coinImage img{
+  max-width: 20%;
+  max-height: 20%;
+}
+#coinlistImage img{
+  max-width: 20%;
+  max-height: 20%;
+}
+.rotate {
+  animation: rotation 5s;
+}
+
+.linear {
+  animation-timing-function: linear;
+}
+
+.infinite {
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+
+
+.coinlistTr th {
+  height: .5px;
+}
+
+table {
+  table-layout: fixed;
+  align-items: center;
+  width: 100%;
+   min-width: 100px;
+  border: 1px solid black;
+  border-collapse: separate;
+  border-spacing: 0;
+  }
+  td {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+tr:hover {
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: grey;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
