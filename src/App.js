@@ -44,7 +44,7 @@ const filteredCoins = coins.filter(data =>
       <button className="favBttn" onClick={()=>setPopUp(true)}>Add Coin</button>
       <AddCoins trigger={popup} setTrigger={setPopUp}/> 
       {
-        show?<ListCoinInfo price={currentprice} current_price={setCurrentPrice}
+        show?<ListCoinInfo 
         />:null
       }
       <h1>Crypto List</h1>

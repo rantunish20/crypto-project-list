@@ -13,9 +13,7 @@ const [coinlist, setCoinList] = useState([]);
             console.log(data);
         })
       }, [])
-function handleUpdate(props){
-    const priceUpdate = {}
-}
+
 
 function handleDelete(id)
 {
@@ -48,7 +46,7 @@ return (
                      <td className="coinPrice">${data.current_price}</td>
                      <td className="coinBttn"> 
                      <button onClick={() => handleDelete(data.id)} variant="danger" >Remove</button> 
-                     <button onClick={() => handleUpdate(data.id)}>Update</button>
+                     <button >Update</button>
                      </td>
                  </tr>))}
              </table>
